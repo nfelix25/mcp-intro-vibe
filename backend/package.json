@@ -1,0 +1,22 @@
+{
+  "name": "mcp-intro-vibe-backend",
+  "version": "1.0.0",
+  "description": "Backend API for MCP Issue Tracker",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js",
+    "init-db": "node src/db/init.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^9.0.1",
+    "better-auth": "^0.8.1",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.28.1",
+    "better-sqlite3": "^11.5.0"
+  }
+}
